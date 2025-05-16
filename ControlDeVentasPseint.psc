@@ -2,12 +2,12 @@ Algoritmo ControlDeVentasFeria
 	Definir venta, totaDia, totalGeneral, totalProducto como real 
 	Definir dia, stand, producto Como Entero
 	totalGeneral<-0
-	para dia <- 1 Hasta 2
+	para dia <- 1 Hasta 3
 		Escribir " dia ", dia
 		totaDia<-0
-		para stand <- 1 Hasta 2
+		para stand <- 1 Hasta 4
 			Escribir " stand ", stad
-			para producto <- 1 Hasta 2
+			para producto <- 1 Hasta 3
 				Escribir "  Ingrese venta del producto ", producto, ": "
                 Leer venta
                 totalDia <- totalDia + venta
