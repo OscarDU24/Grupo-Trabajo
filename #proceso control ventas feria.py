@@ -1,14 +1,14 @@
 #proceso control ventas feria 
 total_general = 0
 
-for dia in range(1, 2):
+for dia in range(1, 4):
     print(f"Día {dia}")
     total_dia = 0
 
-    for stand in range(1, 2):
+    for stand in range(1, 5):
         print(f" Stand {stand}")
 
-        for producto in range(1, 2):
+        for producto in range(1, 4):
             venta = float(input(f"  Ingrese venta del producto {producto}: "))
             total_dia += venta
 
